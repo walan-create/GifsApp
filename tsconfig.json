@@ -3,6 +3,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    //Definimos la base de la ruta relativa en el directorio raiz
+    "baseUrl": ".",
+    //Añadimos los paths para evitar las rutas largas
+    "paths":{
+      "@environments/*": ["src/environments/*"]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
