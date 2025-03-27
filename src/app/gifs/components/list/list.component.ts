@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, input, Input } from '@angular/core'; // Corregido: Input en mayúsculas
 import { ListItemComponent } from "./list-item/list-item.component";
+import { Gif } from '../../interfaces/gif.interface';
 
 @Component({
   selector: 'list',
@@ -10,6 +11,6 @@ import { ListItemComponent } from "./list-item/list-item.component";
 export class ListComponent {
 
   //Recibe como parametro la lista dada por el padre
-  gifs = input.required<string[]>();
+  gifs = input.required<Gif[]>();
 
 }

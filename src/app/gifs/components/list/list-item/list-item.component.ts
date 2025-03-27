@@ -1,4 +1,5 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
+import { Gif } from 'src/app/gifs/interfaces/gif.interface';
 
 @Component({
   selector: 'list-item',
@@ -7,6 +8,6 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ListItemComponent {
-  //recibe como parametro la direccion de la imagen (string) dada por el padre
-  imageUrl = input.required<string>();
+  //recibe como parametro el Gif dado por el padre
+  gif = input.required<Gif>();
  }
