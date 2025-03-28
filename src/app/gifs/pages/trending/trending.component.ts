@@ -27,9 +27,7 @@ export default class TrendingComponent {
   //Inyectamos dependencia
   gifService = inject(GifService);
 
-
   //Importante instanciar dentro de la clase lo que queremos pasar como parametro al hijo
   //gifs = signal(imageUrls);
-
 
  }

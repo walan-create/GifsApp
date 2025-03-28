@@ -9,5 +9,5 @@ import { Gif } from 'src/app/gifs/interfaces/gif.interface';
 })
 export class ListItemComponent {
   //recibe como parametro el Gif dado por el padre
-  gif = input.required<Gif>();
+  gif = input.required<string>();
  }
