@@ -1,6 +1,6 @@
-#GifsApp
+# GifsApp
 
-Este es un proyecto de Angular hecho por Alan.
+Este es un proyecto de Angular que consume la API de GIPHY.
 
 ## Dev
 

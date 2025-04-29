@@ -9,6 +9,6 @@ export const appConfig: ApplicationConfig = {
     provideZoneChangeDetection({ eventCoalescing: true }),
     provideRouter(routes),
     //Proveemos el Cliente para que pueda ser inyectado en el service
-    provideHttpClient( withFetch()),     //Las peticiones de Angular van a usar peticioens fetch
+    provideHttpClient(withFetch()), //Las peticiones de Angular van a usar peticioens fetch
   ],
 };
