@@ -15,6 +15,7 @@ import { GifService } from 'src/app/gifs/services/gif.service';
     RouterLink,
     RouterLinkActive
   ],
+  standalone:true,
   templateUrl: './side-menu-options.component.html',
 })
 export class SideMenuOptionsComponent {
